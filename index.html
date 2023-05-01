@@ -5,9 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guilherme Moraes</title>
-    <link rel="stylesheet" href="css/styles.css"
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"> 
 </head>
 <body>
-    <h1>teste</h1>
+    <main id="container">
+        <aside id="bio-container">
+            <h2>Guilherme Moraes</h2>
+            <img id="bio-image" src="img/gui.JPG" alt="Guilherme Moraes">
+            <p>Olá, meu nome é Guilherme Moraes, sou estudante do curso de <span class="highlight">Bacharelado em Sistemas de Informação</span>.</p>
+            <p id="welcome-text">Seja bem-vindo(a)!</p>
+            <ul id="social-container">
+                <li><a href="#" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="#" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+
+            </ul>
+            <div id="email-container">
+                <ion-icon name="mail-outline"></ion-icon><a href="mailto:guilhermehenriqueif@gmail.com">guilhermehenriqueif@gmail.com</a>
+            </div>
+        </aside>
+        <section id="about-container">
+            <h1 id="name">Guilherme Moraes</h1>
+            <p id="title"><span class="highlight">Acadêmico de S.I</span></p>
+            <p class="description">Sou um estudante de S.I, gosto de <span class="highlight">projetos acadêmicos</span> e codificação com ênfase em linguagem <span class="highlight">python</span>.</p>
+            <a target="_blank" href="https://github.com/guihcm" id="btn-projects"><ion-icon name="share-social-outline"></ion-icon><span>Ver Projetos</span></a>
+            <h2 id="skills-section-title">Minhas Skills</h2>
+            <p class="description">Tecnologias que trabalho:</p>
+            <div id="skills-container">
+                <div class="skills-box">
+                    <p class="skills-title">Front-end</p>
+                    <i class="devicon-html5-plain colored"></i>
+                    <i class="devicon-css3-plain colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Back-end</p>
+                    <i class="devicon-php-plain colored"></i>
+                    <i class="devicon-nodejs-plain colored"></i>
+                    <i class="devicon-python-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Databases</p>
+                    <i class="devicon-mysql-plain colored"></i>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
